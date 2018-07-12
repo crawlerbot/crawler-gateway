@@ -1,0 +1,16 @@
+version: '2'
+services:
+    crawlerengine-mongodb:
+        image: mongo:3.6.3
+        ports:
+            - "27017:27017"
+        command: mongos --configdb crawlerengine-mongodb-config
+    crawlerengine-mongodb-node:
+        build:
+            context: .
+            dockerfile: mongodb/MongoDB.Dockerfile
+        command: mongod --replSet rs1 --noprealloc --smallfiles
+    crawlerengine-mongodb-config:
+        image: mongo:3.6.3
+        container_name: crawlerengine-mongodb-config
+        command: mongod --noprealloc --smallfiles --configsvr --dbpath /data/db
