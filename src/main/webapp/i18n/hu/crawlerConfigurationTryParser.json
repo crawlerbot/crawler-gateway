@@ -1,0 +1,35 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationTryParser" : {
+            "home": {
+                "title": "TryParsers",
+                "createLabel": "Egy új Try Parser létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Try Parsert",
+                "search": "Try Parser keresése"
+            },
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Try Parsert {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Try Parser"
+            },
+            "url": "Url",
+            "userAgent": "User Agent",
+            "htmlContent": "Html Content",
+            "parsedContent": "Parsed Content",
+            "selector": "Selector",
+            "selectorResult": "Selector Result",
+            "fetchEngine": "Fetch Engine",
+            "attributeSelector": "Attribute Selector",
+            "docType": "Doc Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationTryParser" : {
+            "created": "Egy új Try Parser lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Try Parser módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Try Parser törölve lett {{ param }} azonosítóval"
+        }
+    }
+}

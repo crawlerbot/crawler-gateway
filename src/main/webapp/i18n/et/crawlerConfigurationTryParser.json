@@ -1,0 +1,35 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationTryParser" : {
+            "home": {
+                "title": "Try Parsers",
+                "createLabel": "Lisa uus Try Parser",
+                "createOrEditLabel": "Lisa või muuda Try Parser",
+                "search": "Otsi Try Parser"
+            },
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Try Parser {{ id }}?"
+            },
+            "detail": {
+                "title": "Try Parser"
+            },
+            "url": "Url",
+            "userAgent": "User Agent",
+            "htmlContent": "Html Content",
+            "parsedContent": "Parsed Content",
+            "selector": "Selector",
+            "selectorResult": "Selector Result",
+            "fetchEngine": "Fetch Engine",
+            "attributeSelector": "Attribute Selector",
+            "docType": "Doc Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationTryParser" : {
+            "created": "Uus Try Parser on loodud identifikaatoriga {{ param }}",
+            "updated": "Try Parser identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Try Parser identifikaatoriga {{ param }} on kustutatud"
+        }
+    }
+}

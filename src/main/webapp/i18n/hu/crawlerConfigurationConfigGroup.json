@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "home": {
+                "title": "ConfigGroups",
+                "createLabel": "Egy új Config Group létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Config Groupt",
+                "search": "Config Group keresése"
+            },
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Config Groupt {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Config Group"
+            },
+            "name": "Name",
+            "host": "Host",
+            "currentLevel": "Current Level",
+            "expectResultType": "Expect Result Type",
+            "mapping": "Mapping"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "created": "Egy új Config Group lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Config Group módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Config Group törölve lett {{ param }} azonosítóval"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigMapping" : {
+            "home": {
+                "title": "Config Mappings",
+                "createLabel": "Kreiraj novi Config Mapping",
+                "createOrEditLabel": "Kreirajte ili izmenite Config Mapping",
+                "search": "Potražite Config Mapping"
+            },
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Config Mapping pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Mapping"
+            },
+            "name": "Name",
+            "selector": "Selector",
+            "host": "Host",
+            "configName": "Config Name",
+            "attr": "Attr",
+            "dataType": "Data Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigMapping" : {
+            "created": "Kreiran je novi Config Mapping pod nazivom  {{ param }}",
+            "updated": "Config Mapping pod nazivom {{ param }} je ažuriran",
+            "deleted": "Config Mapping pod nazivom {{ param }} je obrisan"
+        }
+    }
+}

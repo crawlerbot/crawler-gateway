@@ -1,0 +1,32 @@
+
+{
+    "crawlerEngineApp": {
+        "scraperSettingConfigMapping" : {
+            "home": {
+                "title": "Config Mappings",
+                "createLabel": "Yangi Config Mapping qo`shish",
+                "createOrEditLabel": "Config Mappingni tahrirlash",
+                "search": "Config Mappingni izlash"
+            },
+            "delete": {
+                "question": "{{ id }}- Config Mappingni o`chirmoqchimisiz? "
+            },
+            "detail": {
+                "title": "Config Mapping"
+            },
+            "name": "Name",
+            "selector": "Selector",
+            "host": "Host",
+            "configName": "Config Name",
+            "attr": "Attr",
+            "dataType": "Data Type"
+        }
+    },
+    "scraperSettingApp": {
+        "scraperSettingConfigMapping" : {
+            "created": "Config Mapping {{ param }} bilan qo`shildi",
+            "updated": "{{ param }}- Config Mapping saqlandi",
+            "deleted": "{{ param }}- Config Mapping o`chirildi"
+        }
+    }
+}

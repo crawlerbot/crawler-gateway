@@ -1,0 +1,9 @@
+{
+    "crawlerEngineApp": {
+        "ChannelType" : {
+            "null": "",
+            "CHANNEL_FOR_GETTING_CHANNEL": "CHANNEL_FOR_GETTING_CHANNEL",
+            "CHANNEL_FOR_GETTING_FEED": "CHANNEL_FOR_GETTING_FEED"
+        }
+    }
+}

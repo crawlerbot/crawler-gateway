@@ -1,0 +1,35 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationTryParser" : {
+            "home": {
+                "title": "Try Parsers",
+                "createLabel": "Creeare o nouă entitate Try Parser",
+                "createOrEditLabel": "Creeare sau editare Try Parser",
+                "search": "Căutare după Try Parser"
+            },
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Try Parser {{ id }}?"
+            },
+            "detail": {
+                "title": "Try Parser"
+            },
+            "url": "Url",
+            "userAgent": "User Agent",
+            "htmlContent": "Html Content",
+            "parsedContent": "Parsed Content",
+            "selector": "Selector",
+            "selectorResult": "Selector Result",
+            "fetchEngine": "Fetch Engine",
+            "attributeSelector": "Attribute Selector",
+            "docType": "Doc Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationTryParser" : {
+            "created": "A fost creată o nouă entitate Try Parser cu identificatorul {{ param }}",
+            "updated": "Entitatea Try Parser cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Entitatea Try Parser cu identificatorul {{ param }} a fost ștearsă"
+        }
+    }
+}

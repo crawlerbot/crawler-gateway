@@ -1,0 +1,35 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationTryParser" : {
+            "home": {
+                "title": "Try Parsers",
+                "createLabel": "Maak een nieuwe Try Parser",
+                "createOrEditLabel": "Maak of wijzig een Try Parser",
+                "search": "Search for Try Parser"
+            },
+            "delete": {
+                "question": "Bent u zeker dat u Try Parser {{ id }} wilt verwijderen?"
+            },
+            "detail": {
+                "title": "Try Parser"
+            },
+            "url": "Url",
+            "userAgent": "User Agent",
+            "htmlContent": "Html Content",
+            "parsedContent": "Parsed Content",
+            "selector": "Selector",
+            "selectorResult": "Selector Result",
+            "fetchEngine": "Fetch Engine",
+            "attributeSelector": "Attribute Selector",
+            "docType": "Doc Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationTryParser" : {
+            "created": "A new Try Parser is created with identifier {{ param }}",
+            "updated": "A Try Parser is updated with identifier {{ param }}",
+            "deleted": "A Try Parser is deleted with identifier {{ param }}"
+        }
+    }
+}

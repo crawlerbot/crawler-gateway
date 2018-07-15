@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "home": {
+                "title": "Config Groups",
+                "createLabel": "Config Group-ஐ உருவாக்கு",
+                "createOrEditLabel": "Config Group -ஐ மாற்று (அ) உருவாக்கு",
+                "search": "Search for Config Group"
+            },
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Config Group {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Group"
+            },
+            "name": "Name",
+            "host": "Host",
+            "currentLevel": "Current Level",
+            "expectResultType": "Expect Result Type",
+            "mapping": "Mapping"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "created": "Config Group புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Config Group மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Config Group நீக்கப்பட்டது, அடையாளம {{ param }}"
+        }
+    }
+}

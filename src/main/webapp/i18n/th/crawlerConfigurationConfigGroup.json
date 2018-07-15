@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "home": {
+                "title": "Config Groups",
+                "createLabel": "สร้าง Config Group",
+                "createOrEditLabel": "สร้างหรือแก้ไข Config Group",
+                "search": "ค้นหา Config Group"
+            },
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Config Group {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Group"
+            },
+            "name": "Name",
+            "host": "Host",
+            "currentLevel": "Current Level",
+            "expectResultType": "Expect Result Type",
+            "mapping": "Mapping"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "created": "Config Group ถูกสร้างด้วย {{ param }}",
+            "updated": "Config Group ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Config Group ถูกลบด้วย {{ param }}"
+        }
+    }
+}

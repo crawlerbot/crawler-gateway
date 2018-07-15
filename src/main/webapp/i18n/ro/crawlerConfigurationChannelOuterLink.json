@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "home": {
+                "title": "Channel Outer Links",
+                "createLabel": "Creeare o nouă entitate Channel Outer Link",
+                "createOrEditLabel": "Creeare sau editare Channel Outer Link",
+                "search": "Căutare după Channel Outer Link"
+            },
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Channel Outer Link {{ id }}?"
+            },
+            "detail": {
+                "title": "Channel Outer Link"
+            },
+            "configName": "Config Name",
+            "selectorName": "Selector Name",
+            "selectorAttr": "Selector Attr",
+            "host": "Host",
+            "url": "Url"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "created": "A fost creată o nouă entitate Channel Outer Link cu identificatorul {{ param }}",
+            "updated": "Entitatea Channel Outer Link cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Entitatea Channel Outer Link cu identificatorul {{ param }} a fost ștearsă"
+        }
+    }
+}

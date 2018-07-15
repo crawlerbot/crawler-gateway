@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "home": {
+                "title": "Config Groups",
+                "createLabel": "Skapa en ny Config Group",
+                "createOrEditLabel": "Skapa eller ändra en Config Group",
+                "search": "Sök efter Config Group"
+            },
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Config Group {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Group"
+            },
+            "name": "Name",
+            "host": "Host",
+            "currentLevel": "Current Level",
+            "expectResultType": "Expect Result Type",
+            "mapping": "Mapping"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "created": "En ny Config Group är skapad med id {{ param }}",
+            "updated": "En Config Group är uppdaterad med id  {{ param }}",
+            "deleted": "En Config Group är borttagen med id  {{ param }}"
+        }
+    }
+}

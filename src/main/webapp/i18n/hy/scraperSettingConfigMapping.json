@@ -1,0 +1,32 @@
+
+{
+    "crawlerEngineApp": {
+        "scraperSettingConfigMapping" : {
+            "home": {
+                "title": "Config Mappings",
+                "createLabel": "Ստեղծել նոր Config Mapping",
+                "createOrEditLabel": "Ստեղծել կամ փոփոխել Config Mapping",
+                "search": "Գտնել Config Mapping"
+            },
+            "delete": {
+                "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Config Mapping {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Mapping"
+            },
+            "name": "Name",
+            "selector": "Selector",
+            "host": "Host",
+            "configName": "Config Name",
+            "attr": "Attr",
+            "dataType": "Data Type"
+        }
+    },
+    "scraperSettingApp": {
+        "scraperSettingConfigMapping" : {
+            "created": "Նոր Config Mapping ստեղծված է {{ param }} նունացուցիչով",
+            "updated": "Config Mapping թարմացվաց է {{ param }} նունացուցիչով",
+            "deleted": "Config Mapping հեռացված է {{ param }} նունացուցիչով"
+        }
+    }
+}

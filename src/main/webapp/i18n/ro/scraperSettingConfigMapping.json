@@ -1,0 +1,32 @@
+
+{
+    "crawlerEngineApp": {
+        "scraperSettingConfigMapping" : {
+            "home": {
+                "title": "Config Mappings",
+                "createLabel": "Creeare o nouă entitate Config Mapping",
+                "createOrEditLabel": "Creeare sau editare Config Mapping",
+                "search": "Căutare după Config Mapping"
+            },
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Config Mapping {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Mapping"
+            },
+            "name": "Name",
+            "selector": "Selector",
+            "host": "Host",
+            "configName": "Config Name",
+            "attr": "Attr",
+            "dataType": "Data Type"
+        }
+    },
+    "scraperSettingApp": {
+        "scraperSettingConfigMapping" : {
+            "created": "A fost creată o nouă entitate Config Mapping cu identificatorul {{ param }}",
+            "updated": "Entitatea Config Mapping cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Entitatea Config Mapping cu identificatorul {{ param }} a fost ștearsă"
+        }
+    }
+}

@@ -10,6 +10,12 @@
                 "bankAccount": "ContBancar",
                 "label": "Etichetă",
                 "operation": "Operație",
+                "crawlerConfigurationConfigMapping": "Config Mapping",
+                "crawlerConfigurationChannel": "Channel",
+                "crawlerConfigurationConfigGroup": "Config Group",
+                "crawlerConfigurationTryParser": "Try Parser",
+                "crawlerConfigurationSiteChannel": "Site Channel",
+                "crawlerConfigurationChannelOuterLink": "Channel Outer Link",
                 "simlife-needle-menu-add-entry": "Simlife will add additional entities here (do not translate!)"
             },
             "account": {

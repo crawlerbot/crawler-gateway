@@ -1,0 +1,35 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationTryParser" : {
+            "home": {
+                "title": "Try Parsers",
+                "createLabel": "Yangi Try Parser qo`shish",
+                "createOrEditLabel": "Try Parserni tahrirlash",
+                "search": "Try Parserni izlash"
+            },
+            "delete": {
+                "question": "{{ id }}- Try Parserni o`chirmoqchimisiz? "
+            },
+            "detail": {
+                "title": "Try Parser"
+            },
+            "url": "Url",
+            "userAgent": "User Agent",
+            "htmlContent": "Html Content",
+            "parsedContent": "Parsed Content",
+            "selector": "Selector",
+            "selectorResult": "Selector Result",
+            "fetchEngine": "Fetch Engine",
+            "attributeSelector": "Attribute Selector",
+            "docType": "Doc Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationTryParser" : {
+            "created": "Try Parser {{ param }} bilan qo`shildi",
+            "updated": "{{ param }}- Try Parser saqlandi",
+            "deleted": "{{ param }}- Try Parser o`chirildi"
+        }
+    }
+}

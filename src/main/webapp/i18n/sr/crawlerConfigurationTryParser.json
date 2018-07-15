@@ -1,0 +1,35 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationTryParser" : {
+            "home": {
+                "title": "Try Parsers",
+                "createLabel": "Kreiraj novi Try Parser",
+                "createOrEditLabel": "Kreirajte ili izmenite Try Parser",
+                "search": "Potražite Try Parser"
+            },
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Try Parser pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Try Parser"
+            },
+            "url": "Url",
+            "userAgent": "User Agent",
+            "htmlContent": "Html Content",
+            "parsedContent": "Parsed Content",
+            "selector": "Selector",
+            "selectorResult": "Selector Result",
+            "fetchEngine": "Fetch Engine",
+            "attributeSelector": "Attribute Selector",
+            "docType": "Doc Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationTryParser" : {
+            "created": "Kreiran je novi Try Parser pod nazivom  {{ param }}",
+            "updated": "Try Parser pod nazivom {{ param }} je ažuriran",
+            "deleted": "Try Parser pod nazivom {{ param }} je obrisan"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigMapping" : {
+            "home": {
+                "title": "ConfigMappings",
+                "createLabel": "Config Mapping を追加",
+                "createOrEditLabel": "Config Mappingを追加または編集",
+                "search": "Search for Config Mapping"
+            },
+            "delete": {
+                "question": "Config Mapping {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Config Mapping"
+            },
+            "name": "Name",
+            "selector": "Selector",
+            "host": "Host",
+            "configName": "Config Name",
+            "attr": "Attr",
+            "dataType": "Data Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigMapping" : {
+            "created": "A new Config Mapping is created with identifier {{ param }}",
+            "updated": "A Config Mapping is updated with identifier {{ param }}",
+            "deleted": "A Config Mapping is deleted with identifier {{ param }}"
+        }
+    }
+}

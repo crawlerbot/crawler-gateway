@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "home": {
+                "title": "Channel Outer Links",
+                "createLabel": "Channel Outer Link-ஐ உருவாக்கு",
+                "createOrEditLabel": "Channel Outer Link -ஐ மாற்று (அ) உருவாக்கு",
+                "search": "Search for Channel Outer Link"
+            },
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Channel Outer Link {{ id }}?"
+            },
+            "detail": {
+                "title": "Channel Outer Link"
+            },
+            "configName": "Config Name",
+            "selectorName": "Selector Name",
+            "selectorAttr": "Selector Attr",
+            "host": "Host",
+            "url": "Url"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "created": "Channel Outer Link புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Channel Outer Link மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Channel Outer Link நீக்கப்பட்டது, அடையாளம {{ param }}"
+        }
+    }
+}

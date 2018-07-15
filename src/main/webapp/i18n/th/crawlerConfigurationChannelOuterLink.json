@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "home": {
+                "title": "Channel Outer Links",
+                "createLabel": "สร้าง Channel Outer Link",
+                "createOrEditLabel": "สร้างหรือแก้ไข Channel Outer Link",
+                "search": "ค้นหา Channel Outer Link"
+            },
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Channel Outer Link {{ id }}?"
+            },
+            "detail": {
+                "title": "Channel Outer Link"
+            },
+            "configName": "Config Name",
+            "selectorName": "Selector Name",
+            "selectorAttr": "Selector Attr",
+            "host": "Host",
+            "url": "Url"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "created": "Channel Outer Link ถูกสร้างด้วย {{ param }}",
+            "updated": "Channel Outer Link ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Channel Outer Link ถูกลบด้วย {{ param }}"
+        }
+    }
+}

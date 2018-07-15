@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "home": {
+                "title": "ChannelOuterLinks",
+                "createLabel": "Channel Outer Link を追加",
+                "createOrEditLabel": "Channel Outer Linkを追加または編集",
+                "search": "Search for Channel Outer Link"
+            },
+            "delete": {
+                "question": "Channel Outer Link {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Channel Outer Link"
+            },
+            "configName": "Config Name",
+            "selectorName": "Selector Name",
+            "selectorAttr": "Selector Attr",
+            "host": "Host",
+            "url": "Url"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "created": "A new Channel Outer Link is created with identifier {{ param }}",
+            "updated": "A Channel Outer Link is updated with identifier {{ param }}",
+            "deleted": "A Channel Outer Link is deleted with identifier {{ param }}"
+        }
+    }
+}

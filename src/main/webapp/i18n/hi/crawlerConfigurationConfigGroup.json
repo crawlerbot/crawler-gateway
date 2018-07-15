@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "home": {
+                "title": "ConfigGroups",
+                "createLabel": "नया Config Group बनाएँ",
+                "createOrEditLabel": "Config Group बनाएँ या संपादित करें",
+                "search": "Config Group खोजें"
+            },
+            "delete": {
+                "question": "Config Group [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Config Group"
+            },
+            "name": "Name",
+            "host": "Host",
+            "currentLevel": "Current Level",
+            "expectResultType": "Expect Result Type",
+            "mapping": "Mapping"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "created": "एक नया Config Group [identifier: {{ param }}] तैयार है",
+            "updated": "एक Config Group [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Config Group [identifier: {{ param }}] हटा दिया है"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "home": {
+                "title": "Config Groups",
+                "createLabel": "Ստեղծել նոր Config Group",
+                "createOrEditLabel": "Ստեղծել կամ փոփոխել Config Group",
+                "search": "Գտնել Config Group"
+            },
+            "delete": {
+                "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Config Group {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Group"
+            },
+            "name": "Name",
+            "host": "Host",
+            "currentLevel": "Current Level",
+            "expectResultType": "Expect Result Type",
+            "mapping": "Mapping"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "created": "Նոր Config Group ստեղծված է {{ param }} նունացուցիչով",
+            "updated": "Config Group թարմացվաց է {{ param }} նունացուցիչով",
+            "deleted": "Config Group հեռացված է {{ param }} նունացուցիչով"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "crawlerEngineApp": {
+        "TargetChannel" : {
+            "null": "",
+            "PUBLISHER": "PUBLISHER",
+            "CATEGORY": "CATEGORY"
+        }
+    }
+}

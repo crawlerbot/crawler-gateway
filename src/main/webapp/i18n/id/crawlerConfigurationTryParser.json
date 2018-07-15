@@ -1,0 +1,35 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationTryParser" : {
+            "home": {
+                "title": "Try Parsers",
+                "createLabel": "Buat Try Parser baru",
+                "createOrEditLabel": "Buat atau edit Try Parser",
+                "search": "Cari Try Parser"
+            },
+            "delete": {
+                "question": "Apakah anda yakin ingin menghapus Try Parser {{ id }}?"
+            },
+            "detail": {
+                "title": "Try Parser"
+            },
+            "url": "Url",
+            "userAgent": "User Agent",
+            "htmlContent": "Html Content",
+            "parsedContent": "Parsed Content",
+            "selector": "Selector",
+            "selectorResult": "Selector Result",
+            "fetchEngine": "Fetch Engine",
+            "attributeSelector": "Attribute Selector",
+            "docType": "Doc Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationTryParser" : {
+            "created": "Try Parser dengan id {{ param }} telah dibuat",
+            "updated": "Try Parser dengan id {{ param }} telah diperbaharui",
+            "deleted": "Try Parser dengan id {{ param }} telah dihapus"
+        }
+    }
+}

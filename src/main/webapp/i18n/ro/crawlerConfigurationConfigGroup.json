@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "home": {
+                "title": "Config Groups",
+                "createLabel": "Creeare o nouă entitate Config Group",
+                "createOrEditLabel": "Creeare sau editare Config Group",
+                "search": "Căutare după Config Group"
+            },
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Config Group {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Group"
+            },
+            "name": "Name",
+            "host": "Host",
+            "currentLevel": "Current Level",
+            "expectResultType": "Expect Result Type",
+            "mapping": "Mapping"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "created": "A fost creată o nouă entitate Config Group cu identificatorul {{ param }}",
+            "updated": "Entitatea Config Group cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Entitatea Config Group cu identificatorul {{ param }} a fost ștearsă"
+        }
+    }
+}

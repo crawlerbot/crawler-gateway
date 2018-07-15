@@ -1,0 +1,32 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigMapping" : {
+            "home": {
+                "title": "Config Mappings",
+                "createLabel": "Створити новий Config Mapping",
+                "createOrEditLabel": "Створити чи редагувати Config Mapping",
+                "search": "Знайти Config Mapping"
+            },
+            "delete": {
+                "question": "Ви впевнені, що хочете видалити Config Mapping {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Mapping"
+            },
+            "name": "Name",
+            "selector": "Selector",
+            "host": "Host",
+            "configName": "Config Name",
+            "attr": "Attr",
+            "dataType": "Data Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigMapping" : {
+            "created": "Новий Config Mapping створений з ідентифікатором {{ param }}",
+            "updated": "Config Mapping оновлений з ідентифікатором {{ param }}",
+            "deleted": "Config Mapping видалений з ідентифікатором {{ param }}"
+        }
+    }
+}

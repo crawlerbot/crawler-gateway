@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "home": {
+                "title": "Config Groups",
+                "createLabel": "Kreiraj novi Config Group",
+                "createOrEditLabel": "Kreirajte ili izmenite Config Group",
+                "search": "Potražite Config Group"
+            },
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Config Group pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Group"
+            },
+            "name": "Name",
+            "host": "Host",
+            "currentLevel": "Current Level",
+            "expectResultType": "Expect Result Type",
+            "mapping": "Mapping"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "created": "Kreiran je novi Config Group pod nazivom  {{ param }}",
+            "updated": "Config Group pod nazivom {{ param }} je ažuriran",
+            "deleted": "Config Group pod nazivom {{ param }} je obrisan"
+        }
+    }
+}

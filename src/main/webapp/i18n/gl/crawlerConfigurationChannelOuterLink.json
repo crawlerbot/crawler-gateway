@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "home": {
+                "title": "ChannelOuterLinks",
+                "createLabel": "Crear novo Channel Outer Link",
+                "createOrEditLabel": "Crear ou editar Channel Outer Link",
+                "search": "Search for Channel Outer Link"
+            },
+            "delete": {
+                "question": "Seguro que desexa eliminar Channel Outer Link {{ id }}?"
+            },
+            "detail": {
+                "title": "Channel Outer Link"
+            },
+            "configName": "Config Name",
+            "selectorName": "Selector Name",
+            "selectorAttr": "Selector Attr",
+            "host": "Host",
+            "url": "Url"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "created": "Un novo Channel Outer Link foi creado co identificador {{ param }}",
+            "updated": "Un Channel Outer Link foi actualizado co identificador {{ param }}",
+            "deleted": "Un Channel Outer Link foi eliminado co identificador {{ param }}"
+        }
+    }
+}

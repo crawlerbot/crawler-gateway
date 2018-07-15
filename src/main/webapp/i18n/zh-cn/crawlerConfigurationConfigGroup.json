@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "home": {
+                "title": "Config Groups",
+                "createLabel": "创建新 Config Group",
+                "createOrEditLabel": "创建或编辑 Config Group",
+                "search": "查找 Config Group"
+            },
+            "delete": {
+                "question": "你确定要删除 Config Group {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Config Group"
+            },
+            "name": "Name",
+            "host": "Host",
+            "currentLevel": "Current Level",
+            "expectResultType": "Expect Result Type",
+            "mapping": "Mapping"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "created": "Config Group {{ param }} 创建成功",
+            "updated": "Config Group {{ param }} 更新成功",
+            "deleted": "Config Group {{ param }} 删除成功"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationTryParser" : {
+            "home": {
+                "title": "Try Parsers",
+                "createLabel": "Thêm mới một Try Parser",
+                "createOrEditLabel": "Thêm mới hoặc cập nhật Try Parser",
+                "search": "Tìm Try Parser"
+            },
+            "delete": {
+                "question": "Bạn có chắc là muốn xóa Try Parser {{ id }}?"
+            },
+            "detail": {
+                "title": "Try Parser"
+            },
+            "url": "Url",
+            "userAgent": "User Agent",
+            "htmlContent": "Html Content",
+            "parsedContent": "Parsed Content",
+            "selector": "Selector",
+            "selectorResult": "Selector Result",
+            "fetchEngine": "Fetch Engine",
+            "attributeSelector": "Attribute Selector",
+            "docType": "Doc Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationTryParser" : {
+            "created": "Một Try Parser mới được tạo với định danh {{ param }}",
+            "updated": "Một Try Parser cập nhật với định danh {{ param }}",
+            "deleted": "Một Try Parser đã xóa với định danh {{ param }}"
+        }
+    }
+}

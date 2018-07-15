@@ -1,0 +1,9 @@
+{
+    "crawlerEngineApp": {
+        "ExpectResultType" : {
+            "null": "",
+            "OBJECT": "OBJECT",
+            "ARRAY": "ARRAY"
+        }
+    }
+}

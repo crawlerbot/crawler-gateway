@@ -1,0 +1,32 @@
+
+{
+    "crawlerEngineApp": {
+        "scraperSettingConfigMapping" : {
+            "home": {
+                "title": "Config Mappings",
+                "createLabel": "नवीन Config Mapping तयार करा",
+                "createOrEditLabel": "Config Mapping तयार किंवा संपादित करा",
+                "search": "Config Mapping शोधा"
+            },
+            "delete": {
+                "question": "Config Mapping [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+            },
+            "detail": {
+                "title": "Config Mapping"
+            },
+            "name": "Name",
+            "selector": "Selector",
+            "host": "Host",
+            "configName": "Config Name",
+            "attr": "Attr",
+            "dataType": "Data Type"
+        }
+    },
+    "scraperSettingApp": {
+        "scraperSettingConfigMapping" : {
+            "created": "Config Mapping [identifier: {{ param }}] तयार आहे",
+            "updated": "Config Mapping [identifier: {{ param }}] सुधारित केले आहे",
+            "deleted": "Config Mapping [identifier: {{ param }}] हटविले आहे"
+        }
+    }
+}

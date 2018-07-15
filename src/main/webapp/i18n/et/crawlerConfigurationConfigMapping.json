@@ -1,0 +1,32 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigMapping" : {
+            "home": {
+                "title": "Config Mappings",
+                "createLabel": "Lisa uus Config Mapping",
+                "createOrEditLabel": "Lisa või muuda Config Mapping",
+                "search": "Otsi Config Mapping"
+            },
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Config Mapping {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Mapping"
+            },
+            "name": "Name",
+            "selector": "Selector",
+            "host": "Host",
+            "configName": "Config Name",
+            "attr": "Attr",
+            "dataType": "Data Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigMapping" : {
+            "created": "Uus Config Mapping on loodud identifikaatoriga {{ param }}",
+            "updated": "Config Mapping identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Config Mapping identifikaatoriga {{ param }} on kustutatud"
+        }
+    }
+}

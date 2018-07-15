@@ -1,0 +1,35 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationTryParser" : {
+            "home": {
+                "title": "Try Parsers",
+                "createLabel": "สร้าง Try Parser",
+                "createOrEditLabel": "สร้างหรือแก้ไข Try Parser",
+                "search": "ค้นหา Try Parser"
+            },
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Try Parser {{ id }}?"
+            },
+            "detail": {
+                "title": "Try Parser"
+            },
+            "url": "Url",
+            "userAgent": "User Agent",
+            "htmlContent": "Html Content",
+            "parsedContent": "Parsed Content",
+            "selector": "Selector",
+            "selectorResult": "Selector Result",
+            "fetchEngine": "Fetch Engine",
+            "attributeSelector": "Attribute Selector",
+            "docType": "Doc Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationTryParser" : {
+            "created": "Try Parser ถูกสร้างด้วย {{ param }}",
+            "updated": "Try Parser ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Try Parser ถูกลบด้วย {{ param }}"
+        }
+    }
+}

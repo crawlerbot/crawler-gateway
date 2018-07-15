@@ -1,0 +1,35 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationTryParser" : {
+            "home": {
+                "title": "Try Parsers",
+                "createLabel": "创建新 Try Parser",
+                "createOrEditLabel": "创建或编辑 Try Parser",
+                "search": "查找 Try Parser"
+            },
+            "delete": {
+                "question": "你确定要删除 Try Parser {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Try Parser"
+            },
+            "url": "Url",
+            "userAgent": "User Agent",
+            "htmlContent": "Html Content",
+            "parsedContent": "Parsed Content",
+            "selector": "Selector",
+            "selectorResult": "Selector Result",
+            "fetchEngine": "Fetch Engine",
+            "attributeSelector": "Attribute Selector",
+            "docType": "Doc Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationTryParser" : {
+            "created": "Try Parser {{ param }} 创建成功",
+            "updated": "Try Parser {{ param }} 更新成功",
+            "deleted": "Try Parser {{ param }} 删除成功"
+        }
+    }
+}

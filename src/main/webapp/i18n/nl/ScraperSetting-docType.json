@@ -1,0 +1,10 @@
+{
+    "crawlerEngineApp": {
+        "DocType" : {
+            "null": "",
+            "HTML": "HTML",
+            "XML": "XML",
+            "JSON": "JSON"
+        }
+    }
+}

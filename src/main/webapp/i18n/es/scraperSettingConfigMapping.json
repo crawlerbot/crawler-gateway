@@ -1,0 +1,32 @@
+
+{
+    "crawlerEngineApp": {
+        "scraperSettingConfigMapping" : {
+            "home": {
+                "title": "Config Mappings",
+                "createLabel": "Crear nuevo Config Mapping",
+                "createOrEditLabel": "Crear o editar Config Mapping",
+                "search": "Search for Config Mapping"
+            },
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Config Mapping {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Mapping"
+            },
+            "name": "Name",
+            "selector": "Selector",
+            "host": "Host",
+            "configName": "Config Name",
+            "attr": "Attr",
+            "dataType": "Data Type"
+        }
+    },
+    "scraperSettingApp": {
+        "scraperSettingConfigMapping" : {
+            "created": "Un nuevo Config Mapping ha sido creado con el identificador {{ param }}",
+            "updated": "Un Config Mapping ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Config Mapping ha sido eliminado con el identificador {{ param }}"
+        }
+    }
+}

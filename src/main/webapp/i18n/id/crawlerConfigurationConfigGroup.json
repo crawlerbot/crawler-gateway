@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "home": {
+                "title": "Config Groups",
+                "createLabel": "Buat Config Group baru",
+                "createOrEditLabel": "Buat atau edit Config Group",
+                "search": "Cari Config Group"
+            },
+            "delete": {
+                "question": "Apakah anda yakin ingin menghapus Config Group {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Group"
+            },
+            "name": "Name",
+            "host": "Host",
+            "currentLevel": "Current Level",
+            "expectResultType": "Expect Result Type",
+            "mapping": "Mapping"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "created": "Config Group dengan id {{ param }} telah dibuat",
+            "updated": "Config Group dengan id {{ param }} telah diperbaharui",
+            "deleted": "Config Group dengan id {{ param }} telah dihapus"
+        }
+    }
+}

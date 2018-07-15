@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "home": {
+                "title": "Config Groups",
+                "createLabel": "Lisa uus Config Group",
+                "createOrEditLabel": "Lisa või muuda Config Group",
+                "search": "Otsi Config Group"
+            },
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Config Group {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Group"
+            },
+            "name": "Name",
+            "host": "Host",
+            "currentLevel": "Current Level",
+            "expectResultType": "Expect Result Type",
+            "mapping": "Mapping"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "created": "Uus Config Group on loodud identifikaatoriga {{ param }}",
+            "updated": "Config Group identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Config Group identifikaatoriga {{ param }} on kustutatud"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationTryParser" : {
+            "home": {
+                "title": "TryParsers",
+                "createLabel": "नया Try Parser बनाएँ",
+                "createOrEditLabel": "Try Parser बनाएँ या संपादित करें",
+                "search": "Try Parser खोजें"
+            },
+            "delete": {
+                "question": "Try Parser [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Try Parser"
+            },
+            "url": "Url",
+            "userAgent": "User Agent",
+            "htmlContent": "Html Content",
+            "parsedContent": "Parsed Content",
+            "selector": "Selector",
+            "selectorResult": "Selector Result",
+            "fetchEngine": "Fetch Engine",
+            "attributeSelector": "Attribute Selector",
+            "docType": "Doc Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationTryParser" : {
+            "created": "एक नया Try Parser [identifier: {{ param }}] तैयार है",
+            "updated": "एक Try Parser [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Try Parser [identifier: {{ param }}] हटा दिया है"
+        }
+    }
+}

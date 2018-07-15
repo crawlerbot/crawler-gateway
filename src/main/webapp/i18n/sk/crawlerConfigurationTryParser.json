@@ -1,0 +1,35 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationTryParser" : {
+            "home": {
+                "title": "Try Parsers",
+                "createLabel": "Pridať Try Parser",
+                "createOrEditLabel": "Pridať alebo upraviť Try Parser",
+                "search": "Vyhľadať Try Parser"
+            },
+            "delete": {
+                "question": "Ste si istý, že chcete vymazať Try Parser {{ id }}?"
+            },
+            "detail": {
+                "title": "Try Parser"
+            },
+            "url": "Url",
+            "userAgent": "User Agent",
+            "htmlContent": "Html Content",
+            "parsedContent": "Parsed Content",
+            "selector": "Selector",
+            "selectorResult": "Selector Result",
+            "fetchEngine": "Fetch Engine",
+            "attributeSelector": "Attribute Selector",
+            "docType": "Doc Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationTryParser" : {
+            "created": "Bol vytvorený potomok entity Try Parser s identifikátorom {{ param }}",
+            "updated": "Potomok entity Try Parser s identifikátorom {{ param }} bol upravený.",
+            "deleted": "Potomok entity Try Parser s identifikátorom {{ param }} bol vymazaný."
+        }
+    }
+}

@@ -1,0 +1,32 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigMapping" : {
+            "home": {
+                "title": "Config Mappings",
+                "createLabel": "创建新 Config Mapping",
+                "createOrEditLabel": "创建或编辑 Config Mapping",
+                "search": "查找 Config Mapping"
+            },
+            "delete": {
+                "question": "你确定要删除 Config Mapping {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Config Mapping"
+            },
+            "name": "Name",
+            "selector": "Selector",
+            "host": "Host",
+            "configName": "Config Name",
+            "attr": "Attr",
+            "dataType": "Data Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigMapping" : {
+            "created": "Config Mapping {{ param }} 创建成功",
+            "updated": "Config Mapping {{ param }} 更新成功",
+            "deleted": "Config Mapping {{ param }} 删除成功"
+        }
+    }
+}

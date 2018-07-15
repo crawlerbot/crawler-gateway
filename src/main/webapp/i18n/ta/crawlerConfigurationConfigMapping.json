@@ -1,0 +1,32 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigMapping" : {
+            "home": {
+                "title": "Config Mappings",
+                "createLabel": "Config Mapping-ஐ உருவாக்கு",
+                "createOrEditLabel": "Config Mapping -ஐ மாற்று (அ) உருவாக்கு",
+                "search": "Search for Config Mapping"
+            },
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Config Mapping {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Mapping"
+            },
+            "name": "Name",
+            "selector": "Selector",
+            "host": "Host",
+            "configName": "Config Name",
+            "attr": "Attr",
+            "dataType": "Data Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigMapping" : {
+            "created": "Config Mapping புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Config Mapping மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Config Mapping நீக்கப்பட்டது, அடையாளம {{ param }}"
+        }
+    }
+}

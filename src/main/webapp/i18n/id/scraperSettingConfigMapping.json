@@ -1,0 +1,32 @@
+
+{
+    "crawlerEngineApp": {
+        "scraperSettingConfigMapping" : {
+            "home": {
+                "title": "Config Mappings",
+                "createLabel": "Buat Config Mapping baru",
+                "createOrEditLabel": "Buat atau edit Config Mapping",
+                "search": "Cari Config Mapping"
+            },
+            "delete": {
+                "question": "Apakah anda yakin ingin menghapus Config Mapping {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Mapping"
+            },
+            "name": "Name",
+            "selector": "Selector",
+            "host": "Host",
+            "configName": "Config Name",
+            "attr": "Attr",
+            "dataType": "Data Type"
+        }
+    },
+    "scraperSettingApp": {
+        "scraperSettingConfigMapping" : {
+            "created": "Config Mapping dengan id {{ param }} telah dibuat",
+            "updated": "Config Mapping dengan id {{ param }} telah diperbaharui",
+            "deleted": "Config Mapping dengan id {{ param }} telah dihapus"
+        }
+    }
+}

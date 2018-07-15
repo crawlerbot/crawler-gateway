@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "home": {
+                "title": "Config Groups",
+                "createLabel": "Vytvořit Config Group",
+                "createOrEditLabel": "Vytvořit nebo upravit Config Group",
+                "search": "Vyhledat Config Group"
+            },
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat Config Group {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Group"
+            },
+            "name": "Name",
+            "host": "Host",
+            "currentLevel": "Current Level",
+            "expectResultType": "Expect Result Type",
+            "mapping": "Mapping"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "created": "Byl vytvořen potomek entity Config Group s identifikátorem {{ param }}",
+            "updated": "Potomek entity Config Group s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity Config Group s identifikátorem {{ param }} bol smazaný."
+        }
+    }
+}

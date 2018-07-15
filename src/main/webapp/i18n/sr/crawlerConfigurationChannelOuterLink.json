@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "home": {
+                "title": "Channel Outer Links",
+                "createLabel": "Kreiraj novi Channel Outer Link",
+                "createOrEditLabel": "Kreirajte ili izmenite Channel Outer Link",
+                "search": "Potražite Channel Outer Link"
+            },
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Channel Outer Link pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Channel Outer Link"
+            },
+            "configName": "Config Name",
+            "selectorName": "Selector Name",
+            "selectorAttr": "Selector Attr",
+            "host": "Host",
+            "url": "Url"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "created": "Kreiran je novi Channel Outer Link pod nazivom  {{ param }}",
+            "updated": "Channel Outer Link pod nazivom {{ param }} je ažuriran",
+            "deleted": "Channel Outer Link pod nazivom {{ param }} je obrisan"
+        }
+    }
+}

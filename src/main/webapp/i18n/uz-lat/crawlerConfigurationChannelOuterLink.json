@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "home": {
+                "title": "Channel Outer Links",
+                "createLabel": "Yangi Channel Outer Link qo`shish",
+                "createOrEditLabel": "Channel Outer Linkni tahrirlash",
+                "search": "Channel Outer Linkni izlash"
+            },
+            "delete": {
+                "question": "{{ id }}- Channel Outer Linkni o`chirmoqchimisiz? "
+            },
+            "detail": {
+                "title": "Channel Outer Link"
+            },
+            "configName": "Config Name",
+            "selectorName": "Selector Name",
+            "selectorAttr": "Selector Attr",
+            "host": "Host",
+            "url": "Url"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "created": "Channel Outer Link {{ param }} bilan qo`shildi",
+            "updated": "{{ param }}- Channel Outer Link saqlandi",
+            "deleted": "{{ param }}- Channel Outer Link o`chirildi"
+        }
+    }
+}

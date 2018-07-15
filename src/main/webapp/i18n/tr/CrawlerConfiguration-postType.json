@@ -1,0 +1,13 @@
+{
+    "crawlerEngineApp": {
+        "PostType" : {
+            "null": "",
+            "ARTICLE": "ARTICLE",
+            "VIDEO": "VIDEO",
+            "MUSIC": "MUSIC",
+            "MOVIE": "MOVIE",
+            "NEWS": "NEWS",
+            "AUDIO": "AUDIO"
+        }
+    }
+}

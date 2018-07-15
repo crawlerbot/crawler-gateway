@@ -1,0 +1,35 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationTryParser" : {
+            "home": {
+                "title": "Try Parsers",
+                "createLabel": "Ստեղծել նոր Try Parser",
+                "createOrEditLabel": "Ստեղծել կամ փոփոխել Try Parser",
+                "search": "Գտնել Try Parser"
+            },
+            "delete": {
+                "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Try Parser {{ id }}?"
+            },
+            "detail": {
+                "title": "Try Parser"
+            },
+            "url": "Url",
+            "userAgent": "User Agent",
+            "htmlContent": "Html Content",
+            "parsedContent": "Parsed Content",
+            "selector": "Selector",
+            "selectorResult": "Selector Result",
+            "fetchEngine": "Fetch Engine",
+            "attributeSelector": "Attribute Selector",
+            "docType": "Doc Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationTryParser" : {
+            "created": "Նոր Try Parser ստեղծված է {{ param }} նունացուցիչով",
+            "updated": "Try Parser թարմացվաց է {{ param }} նունացուցիչով",
+            "deleted": "Try Parser հեռացված է {{ param }} նունացուցիչով"
+        }
+    }
+}

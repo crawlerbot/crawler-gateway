@@ -1,0 +1,35 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationTryParser" : {
+            "home": {
+                "title": "Try Parsers",
+                "createLabel": "Try Parser-ஐ உருவாக்கு",
+                "createOrEditLabel": "Try Parser -ஐ மாற்று (அ) உருவாக்கு",
+                "search": "Search for Try Parser"
+            },
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Try Parser {{ id }}?"
+            },
+            "detail": {
+                "title": "Try Parser"
+            },
+            "url": "Url",
+            "userAgent": "User Agent",
+            "htmlContent": "Html Content",
+            "parsedContent": "Parsed Content",
+            "selector": "Selector",
+            "selectorResult": "Selector Result",
+            "fetchEngine": "Fetch Engine",
+            "attributeSelector": "Attribute Selector",
+            "docType": "Doc Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationTryParser" : {
+            "created": "Try Parser புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Try Parser மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Try Parser நீக்கப்பட்டது, அடையாளம {{ param }}"
+        }
+    }
+}

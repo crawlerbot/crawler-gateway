@@ -1,0 +1,32 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigMapping" : {
+            "home": {
+                "title": "Config Mappings",
+                "createLabel": "สร้าง Config Mapping",
+                "createOrEditLabel": "สร้างหรือแก้ไข Config Mapping",
+                "search": "ค้นหา Config Mapping"
+            },
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Config Mapping {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Mapping"
+            },
+            "name": "Name",
+            "selector": "Selector",
+            "host": "Host",
+            "configName": "Config Name",
+            "attr": "Attr",
+            "dataType": "Data Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigMapping" : {
+            "created": "Config Mapping ถูกสร้างด้วย {{ param }}",
+            "updated": "Config Mapping ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Config Mapping ถูกลบด้วย {{ param }}"
+        }
+    }
+}

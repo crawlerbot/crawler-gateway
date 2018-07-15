@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "home": {
+                "title": "ChannelOuterLinks",
+                "createLabel": "नया Channel Outer Link बनाएँ",
+                "createOrEditLabel": "Channel Outer Link बनाएँ या संपादित करें",
+                "search": "Channel Outer Link खोजें"
+            },
+            "delete": {
+                "question": "Channel Outer Link [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Channel Outer Link"
+            },
+            "configName": "Config Name",
+            "selectorName": "Selector Name",
+            "selectorAttr": "Selector Attr",
+            "host": "Host",
+            "url": "Url"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "created": "एक नया Channel Outer Link [identifier: {{ param }}] तैयार है",
+            "updated": "एक Channel Outer Link [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Channel Outer Link [identifier: {{ param }}] हटा दिया है"
+        }
+    }
+}

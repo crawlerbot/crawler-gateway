@@ -7,6 +7,12 @@
             "simlife-needle-menu-add-element": "Simlife will add additional menu entries here (do not translate!)",
             "entities": {
                 "main": "Entità",
+                "crawlerConfigurationConfigMapping": "Config Mapping",
+                "crawlerConfigurationChannel": "Channel",
+                "crawlerConfigurationConfigGroup": "Config Group",
+                "crawlerConfigurationTryParser": "Try Parser",
+                "crawlerConfigurationSiteChannel": "Site Channel",
+                "crawlerConfigurationChannelOuterLink": "Channel Outer Link",
                 "simlife-needle-menu-add-entry": "Simlife will add additional entities here (do not translate!)"
             },
             "account": {

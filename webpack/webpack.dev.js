@@ -38,6 +38,7 @@ module.exports = (options) => webpackMerge(commonConfig({ env: ENV }), {
     contentBase: './target/www',
     proxy: [{
       context: [
+        '/crawlerconfiguration',
         /* simlife-needle-add-entity-to-webpack - Simlife will add entity api paths here */
         '/api',
         '/management',

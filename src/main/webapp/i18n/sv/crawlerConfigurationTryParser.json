@@ -1,0 +1,35 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationTryParser" : {
+            "home": {
+                "title": "Try Parsers",
+                "createLabel": "Skapa en ny Try Parser",
+                "createOrEditLabel": "Skapa eller ändra en Try Parser",
+                "search": "Sök efter Try Parser"
+            },
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Try Parser {{ id }}?"
+            },
+            "detail": {
+                "title": "Try Parser"
+            },
+            "url": "Url",
+            "userAgent": "User Agent",
+            "htmlContent": "Html Content",
+            "parsedContent": "Parsed Content",
+            "selector": "Selector",
+            "selectorResult": "Selector Result",
+            "fetchEngine": "Fetch Engine",
+            "attributeSelector": "Attribute Selector",
+            "docType": "Doc Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationTryParser" : {
+            "created": "En ny Try Parser är skapad med id {{ param }}",
+            "updated": "En Try Parser är uppdaterad med id  {{ param }}",
+            "deleted": "En Try Parser är borttagen med id  {{ param }}"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigMapping" : {
+            "home": {
+                "title": "ConfigMappings",
+                "createLabel": "नया Config Mapping बनाएँ",
+                "createOrEditLabel": "Config Mapping बनाएँ या संपादित करें",
+                "search": "Config Mapping खोजें"
+            },
+            "delete": {
+                "question": "Config Mapping [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Config Mapping"
+            },
+            "name": "Name",
+            "selector": "Selector",
+            "host": "Host",
+            "configName": "Config Name",
+            "attr": "Attr",
+            "dataType": "Data Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigMapping" : {
+            "created": "एक नया Config Mapping [identifier: {{ param }}] तैयार है",
+            "updated": "एक Config Mapping [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Config Mapping [identifier: {{ param }}] हटा दिया है"
+        }
+    }
+}

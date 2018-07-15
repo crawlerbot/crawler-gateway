@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "home": {
+                "title": "Channel Outer Links",
+                "createLabel": "Buat Channel Outer Link baru",
+                "createOrEditLabel": "Buat atau edit Channel Outer Link",
+                "search": "Cari Channel Outer Link"
+            },
+            "delete": {
+                "question": "Apakah anda yakin ingin menghapus Channel Outer Link {{ id }}?"
+            },
+            "detail": {
+                "title": "Channel Outer Link"
+            },
+            "configName": "Config Name",
+            "selectorName": "Selector Name",
+            "selectorAttr": "Selector Attr",
+            "host": "Host",
+            "url": "Url"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "created": "Channel Outer Link dengan id {{ param }} telah dibuat",
+            "updated": "Channel Outer Link dengan id {{ param }} telah diperbaharui",
+            "deleted": "Channel Outer Link dengan id {{ param }} telah dihapus"
+        }
+    }
+}

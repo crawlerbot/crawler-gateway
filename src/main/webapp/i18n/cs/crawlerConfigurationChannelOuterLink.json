@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "home": {
+                "title": "Channel Outer Links",
+                "createLabel": "Vytvořit Channel Outer Link",
+                "createOrEditLabel": "Vytvořit nebo upravit Channel Outer Link",
+                "search": "Vyhledat Channel Outer Link"
+            },
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat Channel Outer Link {{ id }}?"
+            },
+            "detail": {
+                "title": "Channel Outer Link"
+            },
+            "configName": "Config Name",
+            "selectorName": "Selector Name",
+            "selectorAttr": "Selector Attr",
+            "host": "Host",
+            "url": "Url"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "created": "Byl vytvořen potomek entity Channel Outer Link s identifikátorem {{ param }}",
+            "updated": "Potomek entity Channel Outer Link s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity Channel Outer Link s identifikátorem {{ param }} bol smazaný."
+        }
+    }
+}

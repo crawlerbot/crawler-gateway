@@ -1,0 +1,35 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationTryParser" : {
+            "home": {
+                "title": "Try Parsers",
+                "createLabel": "Створити новий Try Parser",
+                "createOrEditLabel": "Створити чи редагувати Try Parser",
+                "search": "Знайти Try Parser"
+            },
+            "delete": {
+                "question": "Ви впевнені, що хочете видалити Try Parser {{ id }}?"
+            },
+            "detail": {
+                "title": "Try Parser"
+            },
+            "url": "Url",
+            "userAgent": "User Agent",
+            "htmlContent": "Html Content",
+            "parsedContent": "Parsed Content",
+            "selector": "Selector",
+            "selectorResult": "Selector Result",
+            "fetchEngine": "Fetch Engine",
+            "attributeSelector": "Attribute Selector",
+            "docType": "Doc Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationTryParser" : {
+            "created": "Новий Try Parser створений з ідентифікатором {{ param }}",
+            "updated": "Try Parser оновлений з ідентифікатором {{ param }}",
+            "deleted": "Try Parser видалений з ідентифікатором {{ param }}"
+        }
+    }
+}

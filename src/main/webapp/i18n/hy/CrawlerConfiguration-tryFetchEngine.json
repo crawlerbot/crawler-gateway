@@ -1,0 +1,10 @@
+{
+    "crawlerEngineApp": {
+        "TryFetchEngine" : {
+            "null": "",
+            "HTTP": "HTTP",
+            "SELENIUM": "SELENIUM",
+            "RSS": "RSS"
+        }
+    }
+}

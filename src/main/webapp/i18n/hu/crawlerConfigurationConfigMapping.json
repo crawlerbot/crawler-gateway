@@ -1,0 +1,32 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigMapping" : {
+            "home": {
+                "title": "ConfigMappings",
+                "createLabel": "Egy új Config Mapping létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Config Mappingt",
+                "search": "Config Mapping keresése"
+            },
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Config Mappingt {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Config Mapping"
+            },
+            "name": "Name",
+            "selector": "Selector",
+            "host": "Host",
+            "configName": "Config Name",
+            "attr": "Attr",
+            "dataType": "Data Type"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigMapping" : {
+            "created": "Egy új Config Mapping lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Config Mapping módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Config Mapping törölve lett {{ param }} azonosítóval"
+        }
+    }
+}

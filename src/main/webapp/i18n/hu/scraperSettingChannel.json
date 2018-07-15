@@ -1,0 +1,83 @@
+
+{
+    "crawlerEngineApp": {
+        "scraperSettingChannel" : {
+            "home": {
+                "title": "Channels",
+                "createLabel": "Egy új Channel létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Channelt",
+                "search": "Channel keresése"
+            },
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Channelt {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Channel"
+            },
+            "url": "Url",
+            "contentType": "Content Type",
+            "schedule": "Schedule",
+            "scheduleTimeZone": "Schedule Time Zone",
+            "totalLevel": "Total Level",
+            "archiveLevel": "Archive Level",
+            "unlimitedLevel": "Unlimited Level",
+            "fetchEngine": "Fetch Engine",
+            "category": "Category",
+            "tag": "Tag",
+            "categorySlug": "Category Slug",
+            "tagSlug": "Tag Slug",
+            "countryCode": "Country Code",
+            "languageCode": "Language Code",
+            "targetQueueChannel": "Target Queue Channel",
+            "topics": "Topics",
+            "topicSlugs": "Topic Slugs",
+            "postType": "Post Type",
+            "rankingCountry": "Ranking Country",
+            "channelTotalLevel": "Channel Total Level",
+            "channelArchiveLevel": "Channel Archive Level",
+            "channelFetchEngine": "Channel Fetch Engine",
+            "channelRanking": "Channel Ranking",
+            "channelTargetQueue": "Channel Target Queue",
+            "channelTargetPostType": "Channel Target Post Type",
+            "channelLevelOneFetchEngine": "Channel Level One Fetch Engine",
+            "channelLevelTwoFetchEngine": "Channel Level Two Fetch Engine",
+            "channelLevelThreeFetchEngine": "Channel Level Three Fetch Engine",
+            "channelLevelFourFetchEngine": "Channel Level Four Fetch Engine",
+            "channelLevelOneContentType": "Channel Level One Content Type",
+            "channelLevelTwoContentType": "Channel Level Two Content Type",
+            "channelLevelThreeContentType": "Channel Level Three Content Type",
+            "channelLevelFourContentType": "Channel Level Four Content Type",
+            "channelAllowExternalUrl": "Channel Allow External Url",
+            "channelLogo": "Channel Logo",
+            "channelSiteName": "Channel Site Name",
+            "logo": "Logo",
+            "siteName": "Site Name",
+            "channelType": "Channel Type",
+            "levelOneFetchEngine": "Level One Fetch Engine",
+            "levelTwoFetchEngine": "Level Two Fetch Engine",
+            "levelThreeFetchEngine": "Level Three Fetch Engine",
+            "levelFourFetchEngine": "Level Four Fetch Engine",
+            "levelOneContentType": "Level One Content Type",
+            "levelTwoContentType": "Level Two Content Type",
+            "levelThreeContentType": "Level Three Content Type",
+            "levelFourContentType": "Level Four Content Type",
+            "allowExternalUrl": "Allow External Url",
+            "targetChannel": "Target Channel",
+            "target": "Target",
+            "name": "Name",
+            "siteDomain": "Site Domain",
+            "siteUrl": "Site Url",
+            "outer": "Outer",
+            "mapping": "Mapping",
+            "configGroup": "Config Group",
+            "targetGroup": "Target Group"
+        }
+    },
+    "scraperSettingApp": {
+        "scraperSettingChannel" : {
+            "created": "Egy új Channel lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Channel módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Channel törölve lett {{ param }} azonosítóval"
+        }
+    }
+}

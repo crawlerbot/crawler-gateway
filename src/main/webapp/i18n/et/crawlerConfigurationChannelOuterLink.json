@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "home": {
+                "title": "Channel Outer Links",
+                "createLabel": "Lisa uus Channel Outer Link",
+                "createOrEditLabel": "Lisa või muuda Channel Outer Link",
+                "search": "Otsi Channel Outer Link"
+            },
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Channel Outer Link {{ id }}?"
+            },
+            "detail": {
+                "title": "Channel Outer Link"
+            },
+            "configName": "Config Name",
+            "selectorName": "Selector Name",
+            "selectorAttr": "Selector Attr",
+            "host": "Host",
+            "url": "Url"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "created": "Uus Channel Outer Link on loodud identifikaatoriga {{ param }}",
+            "updated": "Channel Outer Link identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Channel Outer Link identifikaatoriga {{ param }} on kustutatud"
+        }
+    }
+}

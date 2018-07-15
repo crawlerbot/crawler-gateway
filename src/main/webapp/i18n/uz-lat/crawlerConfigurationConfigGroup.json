@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "home": {
+                "title": "Config Groups",
+                "createLabel": "Yangi Config Group qo`shish",
+                "createOrEditLabel": "Config Groupni tahrirlash",
+                "search": "Config Groupni izlash"
+            },
+            "delete": {
+                "question": "{{ id }}- Config Groupni o`chirmoqchimisiz? "
+            },
+            "detail": {
+                "title": "Config Group"
+            },
+            "name": "Name",
+            "host": "Host",
+            "currentLevel": "Current Level",
+            "expectResultType": "Expect Result Type",
+            "mapping": "Mapping"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationConfigGroup" : {
+            "created": "Config Group {{ param }} bilan qo`shildi",
+            "updated": "{{ param }}- Config Group saqlandi",
+            "deleted": "{{ param }}- Config Group o`chirildi"
+        }
+    }
+}

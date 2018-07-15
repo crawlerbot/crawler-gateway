@@ -1,0 +1,32 @@
+
+{
+    "crawlerEngineApp": {
+        "scraperSettingConfigMapping" : {
+            "home": {
+                "title": "Config Mappings",
+                "createLabel": "建立一筆新的 Config Mapping",
+                "createOrEditLabel": "建立或編輯 Config Mapping",
+                "search": "搜尋 Config Mapping"
+            },
+            "delete": {
+                "question": "您確定要刪除 Config Mapping {{ id }} 嗎?"
+            },
+            "detail": {
+                "title": "Config Mapping"
+            },
+            "name": "Name",
+            "selector": "Selector",
+            "host": "Host",
+            "configName": "Config Name",
+            "attr": "Attr",
+            "dataType": "Data Type"
+        }
+    },
+    "scraperSettingApp": {
+        "scraperSettingConfigMapping" : {
+            "created": "新的 Config Mapping 建立成功，識別碼為 {{ param }}",
+            "updated": "識別碼為 {{ param }} 的 Config Mapping 更新成功",
+            "deleted": "識別碼為 {{ param }} 的 Config Mapping 刪除成功"
+        }
+    }
+}

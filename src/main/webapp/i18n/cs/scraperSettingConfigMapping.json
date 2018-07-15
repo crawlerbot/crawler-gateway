@@ -1,0 +1,32 @@
+
+{
+    "crawlerEngineApp": {
+        "scraperSettingConfigMapping" : {
+            "home": {
+                "title": "Config Mappings",
+                "createLabel": "Vytvořit Config Mapping",
+                "createOrEditLabel": "Vytvořit nebo upravit Config Mapping",
+                "search": "Vyhledat Config Mapping"
+            },
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat Config Mapping {{ id }}?"
+            },
+            "detail": {
+                "title": "Config Mapping"
+            },
+            "name": "Name",
+            "selector": "Selector",
+            "host": "Host",
+            "configName": "Config Name",
+            "attr": "Attr",
+            "dataType": "Data Type"
+        }
+    },
+    "scraperSettingApp": {
+        "scraperSettingConfigMapping" : {
+            "created": "Byl vytvořen potomek entity Config Mapping s identifikátorem {{ param }}",
+            "updated": "Potomek entity Config Mapping s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity Config Mapping s identifikátorem {{ param }} bol smazaný."
+        }
+    }
+}

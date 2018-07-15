@@ -1,0 +1,31 @@
+
+{
+    "crawlerEngineApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "home": {
+                "title": "ChannelOuterLinks",
+                "createLabel": "Egy új Channel Outer Link létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Channel Outer Linkt",
+                "search": "Channel Outer Link keresése"
+            },
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Channel Outer Linkt {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Channel Outer Link"
+            },
+            "configName": "Config Name",
+            "selectorName": "Selector Name",
+            "selectorAttr": "Selector Attr",
+            "host": "Host",
+            "url": "Url"
+        }
+    },
+    "crawlerConfigurationApp": {
+        "crawlerConfigurationChannelOuterLink" : {
+            "created": "Egy új Channel Outer Link lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Channel Outer Link módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Channel Outer Link törölve lett {{ param }} azonosítóval"
+        }
+    }
+}
