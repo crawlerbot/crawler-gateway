@@ -24,7 +24,6 @@
 
     <root level="${logging.level.root}">
         <appender-ref ref="ASYNC"/>
-        <appender-ref ref="FILE"/>
         <appender-ref ref="CONSOLE"/>
     </root>
 
