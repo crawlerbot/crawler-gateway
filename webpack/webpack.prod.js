@@ -77,7 +77,7 @@ module.exports = webpackMerge(commonConfig({ env: ENV }), {
       localesToKeep: [
         'en',
         'ar-ly',
-        'hy',
+//        'hy',
         'ca',
         'zh-cn',
         'zh-tw',
@@ -101,6 +101,7 @@ module.exports = webpackMerge(commonConfig({ env: ENV }), {
         'pt-br',
         'pt-pt',
         'ro',
+
         'ru',
         'sk',
         'sr',
@@ -109,7 +110,7 @@ module.exports = webpackMerge(commonConfig({ env: ENV }), {
         'tr',
         'ta',
         'th',
-        'ua',
+//        'ua',
         'uz-lat',
         'vi'
         // simlife-needle-i18n-language-moment-webpack - Simlife will add/remove languages in this array

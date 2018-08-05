@@ -1,29 +1,19 @@
 version: '2'
 services:
     crawlerengine-app:
-        image: crawlerengine
+        image: crawler-gateway
         environment:
             # - _JAVA_OPTIONS=-Xmx512m -Xms256m
             - SPRING_PROFILES_ACTIVE=prod,swagger
-            - EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://admin:$${simlife.registry.password}@simlife-registry:8761/eureka
-            - SPRING_CLOUD_CONFIG_URI=http://admin:$${simlife.registry.password}@simlife-registry:8761/config
-            - SPRING_DATA_MONGODB_URI=mongodb://crawlerengine-mongodb:27017
+            - EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://admin:$${simlife.registry.password}@crawler-registry:8761/eureka
+            - SPRING_CLOUD_CONFIG_URI=http://admin:$${simlife.registry.password}@crawler-registry:8761/config
+            - SPRING_DATA_MONGODB_URI=mongodb://mongo:27017
             - SPRING_DATA_MONGODB_DATABASE=CrawlerEngine
             - SIMLIFE_SLEEP=30 # gives time for the Simlife Registry to boot before the application
-            - SPRING_DATA_ELASTICSEARCH_CLUSTER_NODES=crawlerengine-elasticsearch:9300
+            - SPRING_DATA_ELASTICSEARCH_CLUSTER_NODES=crawlerbot/crawlerbot-elasticsearch:9300
         ports:
-            - 8080:8080
-    crawlerengine-mongodb:
-        extends:
-            file: mongodb.yml
-            service: crawlerengine-mongodb
-    crawlerengine-elasticsearch:
-        extends:
-            file: elasticsearch.yml
-            service: crawlerengine-elasticsearch
-    simlife-registry:
-        extends:
-            file: simlife-registry.yml
-            service: simlife-registry
-        environment:
-            - SPRING_CLOUD_CONFIG_SERVER_NATIVE_SEARCH_LOCATIONS=file:./central-config/docker-config/
+            - 8081:8081
+        external_links:
+            - mongo
+            - crawlerbot/crawlerbot-elasticsearch
+            - crawler-registry
