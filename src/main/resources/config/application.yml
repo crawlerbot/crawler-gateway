@@ -47,8 +47,8 @@ zuul: # those values must be configured depending on the application specific ne
     host:
         max-total-connections: 1000
         max-per-route-connections: 100
-        connect-timeout-millis: 50000
-        socket-timeout-millis: 100000
+#        connect-timeout-millis: 50000
+#        socket-timeout-millis: 100000
     semaphore:
         max-semaphores: 500
 
